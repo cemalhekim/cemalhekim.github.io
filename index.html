@@ -3,60 +3,92 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cemal Hekim | Robotics Engineer</title>
+  <title>Cemal Hekim | Robotics, AI & Autonomous Systems</title>
   <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #0e0e0e;
-      color: #f5f5f5;
-      line-height: 1.6;
-    }
-    header {
-      background: #1c1c1c;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      font-size: 1.2rem;
-      color: #ccc;
-    }
-    nav {
-      display: flex;
-      justify-content: center;
-      gap: 2rem;
-      padding: 1rem;
-      background: #121212;
-    }
-    nav a {
-      color: #f5f5f5;
-      text-decoration: none;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    section {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    footer {
-      text-align: center;
-      padding: 2rem;
-      font-size: 0.9rem;
-      background: #1c1c1c;
-      color: #777;
-    }
+  @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;700&display=swap');
+
+  body {
+    margin: 0;
+    font-family: 'Rajdhani', sans-serif;
+    background: linear-gradient(to right, #0f0f0f, #1e1e1e);
+    color: #f5f5f5;
+    line-height: 1.6;
+  }
+  header {
+    background: #111;
+    padding: 3rem 2rem;
+    text-align: center;
+    border-bottom: 2px solid #444;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 3rem;
+    color: #ffcc00;
+    letter-spacing: 1px;
+  }
+  header p {
+    font-size: 1.3rem;
+    color: #aaa;
+    margin-top: 0.5rem;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1.2rem;
+    background: #1a1a1a;
+    border-bottom: 1px solid #333;
+  }
+  nav a {
+    color: #f5f5f5;
+    text-decoration: none;
+    font-weight: 700;
+    transition: all 0.3s ease;
+  }
+  nav a:hover {
+    color: #ffcc00;
+    text-decoration: underline;
+  }
+  section {
+    padding: 3rem 2rem;
+    max-width: 900px;
+    margin: auto;
+    border-bottom: 1px solid #222;
+  }
+  h2 {
+    color: #ffcc00;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  ul li {
+    background: #1f1f1f;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-left: 5px solid #ffcc00;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  }
+  a {
+    color: #ffcc00;
+  }
+  footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    background: #111;
+    color: #777;
+    border-top: 1px solid #333;
+  }
   </style>
 </head>
 <body>
   <header>
     <h1>Cemal Hekim</h1>
     <p>Engineer | Roboticist | Technologist</p>
+    <p><em>Innovating with AI · Engineering the Future</em></p>
   </header>
   <nav>
     <a href="#about">About</a>
@@ -67,22 +99,39 @@
   <section id="about">
     <h2>About Me</h2>
     <p>
-      I’m an engineer based in Berlin, working at the intersection of robotics, autonomous systems, and lab automation. 
-      I specialize in building LLM-guided robotic platforms and function-calling infrastructure for autonomous labs.
+      I’m an engineer and researcher based in Berlin, focusing on the convergence of robotics, artificial intelligence, and autonomous systems. 
+      Currently working at the Federal Institute for Materials Research and Testing (BAM), I design and develop intelligent robotic infrastructures for 
+      automated laboratories and exploratory robotics platforms. My expertise spans lab automation, large language model (LLM) integration for 
+      robotic task planning, and AI-driven control architectures.
+    </p>
+    <p>
+      My academic background includes a Bachelor's in Computational Engineering Science (TU Berlin), 
+      and I’m pursuing advanced studies and research on LLM-guided robotic orchestration systems. 
+      I'm also the founder of <strong>Hekim Technologies</strong>, a venture focused on plug-and-play AI control layers for lab automation.
     </p>
   </section>
   <section id="projects">
     <h2>Projects</h2>
     <ul>
-      <li>🧪 Autonomous Lab Characterization System</li>
-      <li>🤖 Self-Driving Robotic Platform with LLM Control</li>
-      <li>🌊 Autonomous Underwater Vehicle for Electrochemical Mapping</li>
-      <li>🚀 Cyborg Insects & Bio-Inspired Robotics</li>
+      <li><strong>🧪 Autonomous Lab Characterization System:</strong> A fully automated setup with robotic arms and smart motor stages, enabling high-throughput material testing with AI-driven coordination.</li>
+      <li><strong>🤖 Self-Driving Robotic Platform with LLM Control:</strong> Integrates large language models to interpret goals and generate modular action plans for mobile robots in dynamic environments.</li>
+      <li><strong>🌊 Autonomous Underwater Vehicle (AUV):</strong> A low-cost, sensor-rich AUV for real-time electrochemical seabed analysis, designed for offshore and environmental research missions.</li>
+      <li><strong>🚀 Cyborg Insects & Bio-Inspired Robotics:</strong> A creative exploration into augmenting insect motion with microelectronics, investigating control interfaces for bio-hybrid machines.</li>
     </ul>
   </section>
   <section id="cv">
     <h2>CV</h2>
     <p>View or download my curriculum vitae <a href="/cv/cemal_hekim_cv.pdf" target="_blank">here</a>.</p>
+    <p>
+      Fields of Expertise:
+      <ul>
+        <li>Robotic Systems Engineering (ROS2, MoveIt, RoboDK)</li>
+        <li>Industrial Robot Programming (UR, KUKA, ABB)</li>
+        <li>Embedded Systems (Arduino, Raspberry Pi, custom electronics)</li>
+        <li>AI & Control: LLM integration, Task Planning, Bayesian Optimization</li>
+        <li>Simulation & Modeling (Gazebo, Matlab/Simulink, ANSYS)</li>
+      </ul>
+    </p>
   </section>
   <section id="contact">
     <h2>Contact</h2>
@@ -90,6 +139,9 @@
       📧 <a href="mailto:cemalhekim@protonmail.com">cemalhekim@protonmail.com</a><br />
       🔗 <a href="https://linkedin.com/in/cemalhekim" target="_blank">LinkedIn</a> |
       <a href="https://github.com/cemalhekim" target="_blank">GitHub</a>
+    </p>
+    <p>
+      Want to collaborate or work together on robotics, automation, or AI ventures? Reach out directly or connect on LinkedIn.
     </p>
   </section>
   <footer>
